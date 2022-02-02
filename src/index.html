@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Domino</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <button class="rotate-left" data-rotate="90"><</button>
+            <button class="create">New</button>
+            <button class="rotate-right" data-rotate="180">></button>
+        </div>
+        <div class="domino-wrap">
+            <div class="domino"></div>
+            <div class="domino-constructor">
+                <div class="domino-block">
+                    <div class="domino-block-bar" data-position="top" data-number="1">  
+                        <div class="one">&#9679;</div>                        
+                    </div>
+                    <div class="domino-block-bar" data-position="bottom" data-number="1">
+                        <div class="one">&#9679;</div>                        
+                    </div>
+                </div>
+                <div class="domino-block">
+                    <div class="domino-block-bar" data-position="top" data-number="2">
+                        <div class="two-one">&#9679;</div>
+                        <div class="two-two">&#9679;</div>                         
+                    </div>
+                    <div class="domino-block-bar" data-position="bottom" data-number="2">
+                        <div class="two-one">&#9679;</div>
+                        <div class="two-two">&#9679;</div>                        
+                    </div>
+                </div>
+                <div class="domino-block">
+                    <div class="domino-block-bar" data-position="top" data-number="3">
+                        <div class="three-one">&#9679;</div>
+                        <div class="three-two">&#9679;</div>
+                        <div class="three-three">&#9679;</div>                         
+                    </div>
+                    <div class="domino-block-bar" data-position="bottom" data-number="3">
+                        <div class="three-one">&#9679;</div>
+                        <div class="three-two">&#9679;</div>
+                        <div class="three-three">&#9679;</div>                        
+                    </div>
+                </div>
+                <div class="domino-block">
+                    <div class="domino-block-bar" data-position="top" data-number="4">
+                        <div class="four-one">&#9679;</div>
+                        <div class="four-two">&#9679;</div>
+                        <div class="four-three">&#9679;</div>                         
+                        <div class="four-four">&#9679;</div>                         
+                    </div>
+                    <div class="domino-block-bar" data-position="bottom" data-number="4">
+                        <div class="four-one">&#9679;</div>
+                        <div class="four-two">&#9679;</div>
+                        <div class="four-three">&#9679;</div>                         
+                        <div class="four-four">&#9679;</div>                          
+                    </div>
+                </div>
+                <div class="domino-block">
+                    <div class="domino-block-bar" data-position="top" data-number="5">
+                        <div class="five-one">&#9679;</div>
+                        <div class="five-two">&#9679;</div>
+                        <div class="five-three">&#9679;</div>                         
+                        <div class="five-four">&#9679;</div>                         
+                        <div class="five-five">&#9679;</div>                         
+                    </div>
+                    <div class="domino-block-bar" data-position="bottom" data-number="5">
+                        <div class="five-one">&#9679;</div>
+                        <div class="five-two">&#9679;</div>
+                        <div class="five-three">&#9679;</div>                         
+                        <div class="five-four">&#9679;</div>                         
+                        <div class="five-five">&#9679;</div>                          
+                    </div>
+                </div>
+                <div class="domino-block">
+                    <div class="domino-block-bar" data-position="top" data-number="6">
+                        <div class="six-one">&#9679;</div>
+                        <div class="six-two">&#9679;</div>
+                        <div class="six-three">&#9679;</div>                         
+                        <div class="six-four">&#9679;</div>                         
+                        <div class="six-five">&#9679;</div>                         
+                        <div class="six-six">&#9679;</div>                         
+                    </div>
+                    <div class="domino-block-bar" data-position="bottom" data-number="6">
+                        <div class="six-one">&#9679;</div>
+                        <div class="six-two">&#9679;</div>
+                        <div class="six-three">&#9679;</div>                         
+                        <div class="six-four">&#9679;</div>                         
+                        <div class="six-five">&#9679;</div>                         
+                        <div class="six-six">&#9679;</div>                           
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <input type="range" id="scale" name="scale" min="5" max="13">            
+        </div>        
+    </div>  
+</body>
+</html>

@@ -1,0 +1,169 @@
+.container {
+  padding: 10px;
+}
+
+.head {
+  width: 250px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.domino-wrap {
+  display: flex;
+}
+
+.domino {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#domino {
+  width: 75px;
+  height: 150px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  transition: transform 0.1s;
+}
+
+#domino .domino-block-bar {
+  cursor: auto !important;
+}
+
+.domino-constructor {
+  padding: 25px 0 0 50px;
+  display: flex;
+}
+
+.domino-block {
+  width: 75px;
+  height: 150px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.domino-block-bar:first-child {
+  border-bottom: 1px solid #000000;
+}
+
+.domino-block-bar {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  cursor: pointer;
+}
+
+.domino-block-bar > div {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+
+.one {
+  top: 30px;
+  left: 32px;
+}
+
+.two-one {
+  top: 10px;
+  left: 12px;
+}
+
+.two-two {
+  top: 50px;
+  left: 52px;
+}
+
+.three-one {
+  top: 10px;
+  left: 12px;
+}
+
+.three-two {
+  top: 30px;
+  left: 32px;
+}
+
+.three-three {
+  top: 50px;
+  left: 52px;
+}
+
+.four-one {
+  top: 10px;
+  left: 12px;
+}
+
+.four-two {
+  top: 50px;
+  left: 52px;
+}
+
+.four-three {
+  top: 50px;
+  left: 12px;
+}
+
+.four-four {
+  top: 10px;
+  left: 52px;
+}
+
+.five-one {
+  top: 10px;
+  left: 12px;
+}
+
+.five-two {
+  top: 50px;
+  left: 52px;
+}
+
+.five-three {
+  top: 50px;
+  left: 12px;
+}
+
+.five-four {
+  top: 10px;
+  left: 52px;
+}
+
+.five-five {
+  top: 30px;
+  left: 32px;
+}
+
+.six-one {
+  top: 10px;
+  left: 12px;
+}
+
+.six-two {
+  top: 50px;
+  left: 52px;
+}
+
+.six-three {
+  top: 50px;
+  left: 12px;
+}
+
+.six-four {
+  top: 10px;
+  left: 52px;
+}
+
+.six-five {
+  top: 30px;
+  left: 12px;
+}
+
+.six-six {
+  top: 30px;
+  left: 52px;
+}

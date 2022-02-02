@@ -2,6 +2,7 @@
 Domino
 
 npm i 
+
 npm run start
 
 - Нативный JS6 + Rxjs
